@@ -1,0 +1,8 @@
+package hello;
+
+import hell0.Scanner;
+
+public class Hello {
+	System.out.println("hello,world");
+	Scanner in = new Scanner(System.in);
+}

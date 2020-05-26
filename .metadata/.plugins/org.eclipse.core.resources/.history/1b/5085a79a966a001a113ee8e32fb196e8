@@ -1,0 +1,6 @@
+package hello;
+import java.util.Scanner;
+
+public class Hello {
+	scanner in = new scanner(system.in);
+}
