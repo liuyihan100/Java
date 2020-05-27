@@ -14,8 +14,8 @@
 		<score>100</score>
 	</student>
 	<student id="15">
-	<name>hello</name>
-	<course>你好</course>
-	<score>50</score>
+		<name>hello</name>
+		<course>你好</course>
+		<score>50</score>
 	</student>
 </scores>
