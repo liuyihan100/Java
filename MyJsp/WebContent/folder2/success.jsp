@@ -13,6 +13,9 @@
 		String name = (String)session.getAttribute("name");
 		if(name != null){
 			out.print(name);
+	%>
+		<br/><a href="exit.jsp">注销</a>
+	<%	
 		}else{
 			response.sendRedirect("login.jsp");
 		}

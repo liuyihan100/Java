@@ -18,6 +18,13 @@ public class DomTest {
 		while(it.hasNext()) {
 			Element e = it.next();
 			System.out.println(e.getName());
+			System.out.println(e.attributeValue("id"));
+			Iterator<Element> is = e.elementIterator();
+			while(is.hasNext()) {
+				Element s = is.next();
+				System.out.println(s.getText());
+			}
+			System.out.println("---------------------------");
 		}
 	}
 	
