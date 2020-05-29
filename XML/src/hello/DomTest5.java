@@ -24,18 +24,18 @@ public class DomTest5 {
 		name.addText("hello,world");
 		author.addText("刘毅晗");
 		XMLWriter xmlWriter = null;
-		try {
+		try{
 			BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(new File("src/hello.xml")),"utf-8"));
 			OutputFormat format = OutputFormat.createPrettyPrint();
 			xmlWriter = new XMLWriter(writer, format);
 			xmlWriter.write(doc);
-		} catch (IOException e) {
+		}catch (IOException e){
 			// TODO 自动生成的 catch 块
 			e.printStackTrace();
-		}finally {
-			try {
+		}finally{
+			try{
 				xmlWriter.close();
-			} catch (IOException e) {
+			}catch (IOException e){
 				// TODO 自动生成的 catch 块
 				e.printStackTrace();
 			}
