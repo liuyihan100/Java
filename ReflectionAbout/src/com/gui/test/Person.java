@@ -1,5 +1,7 @@
 package com.gui.test;
 
+import java.io.Serializable;
+
 public class Person {
 	private String name;
 	public int age;
@@ -34,5 +36,21 @@ public class Person {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+	
+	public String play(int num) {
+		if(num == 0)
+			return "zero";
+		else
+			return "hello";
+	}
+	
+	public static void print() {
+		System.out.println("hello,world");
+	}
+
+	public Person(String name) {
+		super();
+		this.name = name;
 	}
 }

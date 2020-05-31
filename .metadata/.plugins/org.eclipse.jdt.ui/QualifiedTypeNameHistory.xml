@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.awt.event.ActionEvent"/>
-    <fullyQualifiedTypeName name="hello.BeatBox.MyStopListener"/>
-    <fullyQualifiedTypeName name="hello.BeatBox.MyUpTempoListener"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
-    <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
-    <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
-    <fullyQualifiedTypeName name="javax.swing.ScrollPaneConstants"/>
-    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="hello.SimpleChat"/>
-    <fullyQualifiedTypeName name="java.awt.Insets"/>
-    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
-    <fullyQualifiedTypeName name="javax.swing.border.Border"/>
-    <fullyQualifiedTypeName name="javax.swing.border.EmptyBorder"/>
-    <fullyQualifiedTypeName name="java.net.Socket"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.serialize.Printer"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -60,4 +43,21 @@
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="org.dom4j.io.OutputFormat"/>
     <fullyQualifiedTypeName name="org.dom4j.io.XMLWriter"/>
+    <fullyQualifiedTypeName name="java.lang.module.ModuleDescriptor.Exports.Modifier"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Modifier"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Parameter"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.ParameterizedType"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.gui.test.Person"/>
+    <fullyQualifiedTypeName name="com.gui.test.NetworkTest.Network"/>
+    <fullyQualifiedTypeName name="com.gui.test.NetworkTest.ServeProxy"/>
+    <fullyQualifiedTypeName name="com.gui.test.NetworkTest.Serve"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+    <fullyQualifiedTypeName name="com.gui.test.MyProxy.MyInvocationHandler"/>
+    <fullyQualifiedTypeName name="com.gui.test.Cat"/>
+    <fullyQualifiedTypeName name="com.gui.test.MyProxy"/>
+    <fullyQualifiedTypeName name="com.gui.test.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
 </qualifiedTypeNameHistroy>
