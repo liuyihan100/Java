@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="show.jsp" method="post">
+	<form action="Server1" method="post">
 		<fieldset>
 			<legend>用户信息</legend>
 			姓名：<input type="text" name="uname"/><br/>
