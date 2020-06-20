@@ -5,9 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-
-<script type="text/javascript">
-	function submit() {
+<script src="JQuery-1.12.4.js" type="text/javascript"></script>
+<script type="text/javascript">	
+	/* function submit() {
 		var oTxt = document.getElementById("hello");
 		xmlHttpRequest = new XMLHttpRequest();
 		
@@ -27,7 +27,24 @@
 				alert("注册成功！");
 			}
 		}
-	};
+	}; */
+	function submit(){
+		$.ajax({
+			url:"LoginServlet",
+			type:"post",
+			data:"num="+$("#hello").val(),
+			success:function(result,status){
+				if(result=="true"){
+					alert("此号码已存在");
+				}else{
+					alert("注册成功");
+				}
+			},
+			error:function(){
+				alert("系统异常");
+			}
+		})
+	}
 </script>
 
 </head>
